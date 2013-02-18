@@ -1,0 +1,7 @@
+Azonosítási rendszer:
+-elsõ karakter: típustól függõen F, R, A, E (funkcionális, erõforrás [resources], átadó, egyéb)
+-második karakter: fontosságtól függõen 1 - 3 (alapvetõ = 1, fontos=2, opcionális=3)
+-harmadik karakter egy kötõjel
+-ezután pedig az egyedi azonosító két számjeggyel
+
+Pl.: F2-05, A1-00, E3-97.
