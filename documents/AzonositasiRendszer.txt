@@ -1,7 +1,24 @@
 Azonosítási rendszer:
 -elsõ karakter: típustól függõen F, R, A, E (funkcionális, erõforrás [resources], átadó, egyéb)
--második karakter: fontosságtól függõen 1 - 3 (alapvetõ = 1, fontos=2, opcionális=3)
--harmadik karakter egy kötõjel
+-második karakter: . (pont)
+-harmadik karakter: altípustól függõen:
+	funkcionális
+		C: gameControl: játékmeneten kívüli irányítás
+		P: gamePlay: játékmenet közbeni irányítás
+	erõforrások
+		H: hardveres követelmény
+		S: szoftveres követelmény
+	átadással kapcsolatos:
+		T: transzfer, átadás
+		I: installation, telepítés
+		D: deployment, üzembe helyezés
+	egyéb
+		P: portability, hordozhatóság
+		R: reliability, megbízhatóság
+		T: tesztelhetõség
+		U: user, felhasználóval kapcsolatos
+-negyedik karakter: prioritás: fontosságtól függõen 1 - 3 (alapvetõ = 1, fontos=2, opcionális=3)
+-ötödik karakter egy kötõjel
 -ezután pedig az egyedi azonosító két számjeggyel
 
-Pl.: F2-05, A1-00, E3-97.
+Pl.: F.A2-05, A.D1-00, E.R3-97
